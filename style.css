@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./trasa.jpg);
+    background-repeat: no-repeat;
+    background-size: 1700px;
+    background-position: center;
+}
+
+.container {
+    width: 1800px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1800px;
+}
+
+.box {
+    width: 600px;
+    height: 700px;
+    border: 2px solid rgb(112, 112, 112);
+    margin: 60px auto;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.345);
+    
+}
+
+.text {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+input {
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin: 20px auto;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.text1{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    font-size: 10px;
+}
+
+.les{
+     display: block;
+    width: 200px;
+    height: 40px;
+    margin: 20px auto;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+    font-size: 10px;   
+}
+
+.text_box{
+    width: 100px;
+    height: 20px;
+}
+
+.submit{
+    background-color: green;
+    width: 90%;
+    height: 40px;
+}
+
+.text_bu{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+}
+.facebook{
+    width: 150px;
+    height: 130px;
+    
+    gap: 10px;
+}
+
+.buyam_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
